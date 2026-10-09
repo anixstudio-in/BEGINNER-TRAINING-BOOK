@@ -1,0 +1,338 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111"><title>AniDubs.in | Voice Artist Training</title><style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f3eb;
+  color: #171717;
+  min-height: 100vh;
+}
+
+header {
+  min-height: 64px;
+  padding: 12px 16px;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #c5a059;
+  display: grid;
+  place-items: center;
+  color: #111;
+  font-size: 22px;
+}
+
+.menu-button {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 9px 12px;
+}
+
+.hero {
+  padding: 48px 20px 40px;
+  text-align: center;
+  background: radial-gradient(circle at top, #e8d6ad, #f7f3eb 65%);
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #c5a059;
+  border-radius: 30px;
+  padding: 8px 12px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #806221;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.gold {
+  color: #a47b2c;
+}
+
+.hero p {
+  max-width: 480px;
+  margin: auto;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.primary-button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 10px;
+  background: #171717;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.section {
+  max-width: 850px;
+  padding: 25px 16px;
+  margin: auto;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.section-heading h2 {
+  font-family: Georgia, serif;
+  font-size: 23px;
+}
+
+.section-heading span {
+  color: #8b6b2b;
+  font-size: 12px;
+}
+
+.book-card {
+  background: white;
+  border: 1px solid #e4dccd;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 5px 18px #00000009;
+}
+
+.book-cover {
+  min-height: 150px;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #171717, #383838);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.book-cover small {
+  color: #d7b76a;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.book-cover h3 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.book-details {
+  padding-top: 16px;
+}
+
+.book-details h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.book-details p {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.open-button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 13px;
+  border: 0;
+  border-radius: 9px;
+  background: #c5a059;
+  color: #111;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.coming {
+  opacity: 0.75;
+}
+
+.coming .book-cover {
+  background: linear-gradient(135deg, #303030, #555);
+}
+
+.coming-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 13px;
+  background: #f4efe6;
+  border: 1px solid #d6c9b2;
+  border-radius: 9px;
+  color: #777;
+  font-weight: bold;
+}
+
+footer {
+  padding: 26px 15px;
+  text-align: center;
+  background: #111;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+footer strong {
+  color: #c5a059;
+}
+
+@media (min-width: 700px) {
+  .hero {
+    padding: 70px 20px 55px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+  }
+}
+</style></head><body><header>
+  <div class="logo">
+    <div class="logo-icon">A</div>
+    <span>AniDubs.in</span>
+  </div>  <button class="menu-button" onclick="showInfo()">
+    ☰ Menu
+  </button>
+</header><main>  <section class="hero">
+    <div class="badge">VOICE ARTIST TRAINING</div><h1>
+  Welcome to<br>
+  <span class="gold">AniDubs.in</span>
+</h1>
+
+<p>
+  Discover voice acting, anime dubbing,
+  character performance and professional
+  voice techniques through structured training.
+</p>
+
+<a class="primary-button" href="#books">
+  Explore Books ↓
+</a>
+
+  </section>  <section class="section" id="books"><div class="section-heading">
+  <h2>Our Library</h2>
+  <span>TRAINING BOOKS</span>
+</div>
+
+<article class="book-card">
+
+  <div class="book-cover">
+    <small>ANIDUBS.IN</small>
+    <h3>VOICE ARTIST<br>TRAINING BOOK</h3>
+  </div>
+
+  <div class="book-details">
+    <h3>Beginner Training Book</h3>
+
+    <p>
+      A starting guide for beginners learning
+      voice acting, dubbing and character emotions.
+    </p>
+
+    <a class="open-button" href="password.html">
+      Open Book →
+    </a>
+  </div>
+
+</article>
+
+<article class="book-card coming">
+
+  <div class="book-cover">
+    <small>ANIDUBS.IN</small>
+    <h3>ADVANCED<br>TRAINING</h3>
+  </div>
+
+  <div class="book-details">
+    <h3>Advanced Training Book</h3>
+
+    <p>
+      Explore advanced character performance
+      and emotion control.
+    </p>
+
+    <button class="coming-button" disabled>
+      Coming Soon
+    </button>
+  </div>
+
+</article>
+
+<article class="book-card coming">
+
+  <div class="book-cover">
+    <small>ANIDUBS.IN</small>
+    <h3>PRO<br>TRAINING</h3>
+  </div>
+
+  <div class="book-details">
+    <h3>Professional Training Book</h3>
+
+    <p>
+      Professional dubbing workflow and
+      advanced performance techniques.
+    </p>
+
+    <button class="coming-button" disabled>
+      Coming Soon
+    </button>
+  </div>
+
+</article>
+
+  </section></main><footer>
+  <strong>AniDubs.in</strong>
+  <br>
+  Voice Artist Training &amp; Dubbing Education
+  <br>
+  © 2026 AniDubs.in. All Rights Reserved.
+</footer><script>
+function showInfo() {
+  alert("More features coming soon!");
+}
+</script></body>
+</html>
